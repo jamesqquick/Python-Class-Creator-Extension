@@ -42,7 +42,7 @@ function activate(context) {
 		const constructorDefinition = `def __init__(self, ${properties.join(', ')}):`
 		const constructorAssignments = properties.map(property => `self.${property} = ${property}\n\t\t`).join('')
 		const classGetters = properties.map(property => `\tdef get_${property}(self):\n\t\treturn self.${property}\n\n`).join('')
-		const dunderStrString = `def __str__():\n \t\treturn ${properties.map(property => "\"" + property + ": \"" + " + " + property + " + \" , \" + ").join('').slice(0, -11)}`
+		const dunderStrString = `\tdef __str__():\n \t\treturn ${properties.map(property => "\"" + property + ": \"" + " + " + property + " + \" , \" + ").join('').slice(0, -11)}`
 
 		//return "name: {0}",
 		const classString =
