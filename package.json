@@ -4,6 +4,10 @@
   "description": "Will generate a Python class in the open project directory based on user input",
   "version": "0.0.1",
   "publisher": "jamesqquick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesqquick/Python-Class-Creator-Extension"
+  },
   "engines": {
     "vscode": "^1.30.0"
   },
