@@ -2,7 +2,7 @@
   "name": "python-class-generator",
   "displayName": "Python Class Generator",
   "description": "Will generate a Python class in the open project directory based on user input",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "jamesqquick",
   "repository": {
     "type": "git",
