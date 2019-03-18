@@ -38,7 +38,6 @@ function activate(context) {
 
       if (!className) return;
 
-      vscode.window.showInformationMessage(`Hello ${className}`);
       let count = 1;
       let property = await vscode.window.showInputBox({
         prompt: `Property #${count}? ('done' when finished)`
